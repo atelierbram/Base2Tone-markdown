@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  font: 100%/1.5 AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", sans-serif;
+  color: #111;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  background: transparent;
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+
+header,
+article,
+footer {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 1em 5%;
+  overflow: auto;
+}
+
+h1, h2, h3 {
+  color: #222;
+  margin: 0 0 .5em;
+  padding: 1rem 0 0;
+}
+
+h1 {
+  font-family: AvenirNextCondensed-Medium, "Segoe Ui", Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+}
+
+h2, h3 {
+  font-family: AvenirNextCondensed-DemiBold, "Segoe Ui", Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+}
+
+b, strong, thead th, button {
+  font-family: AvenirNext-DemiBold, "Segoe Ui", Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+}
+
+em {
+  font-family: AvenirNext-DemiBoldItalic, "Segoe Ui", Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-left: 1em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  padding: .5em 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  background: #f7f7f7;
+  color: #000;
+  margin-bottom: 3em;
+}
+
+thead {
+  display: table-header-group;
+}
+
+thead th {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #ddd;
+}
+
+thead th:nth-of-type(1) {
+  text-align: left;
+}
+
+th, td {
+  padding: .5em 1em;
+}
+
+/* zebra stripes */
+tr:nth-of-type(even) {
+  background: rgba(0, 0, 0, 0.125);
+}
+
+/* white text on dark background */
+table tbody tr:nth-of-type(1) td:nth-child(0n+2),
+table tbody tr:nth-of-type(1) td:nth-child(0n+3),
+table tbody tr:nth-of-type(1) td:nth-child(0n+4),
+table tbody tr:nth-of-type(1) td:nth-child(0n+5),
+table tbody tr:nth-of-type(2) td:nth-child(0n+2),
+table tbody tr:nth-of-type(2) td:nth-child(0n+3),
+table tbody tr:nth-of-type(2) td:nth-child(0n+4),
+table tbody tr:nth-of-type(2) td:nth-child(0n+5),
+table tbody tr:nth-of-type(3) td:nth-child(0n+2),
+table tbody tr:nth-of-type(3) td:nth-child(0n+3),
+table tbody tr:nth-of-type(3) td:nth-child(0n+4),
+table tbody tr:nth-of-type(3) td:nth-child(0n+5),
+table tbody tr:nth-of-type(4) td:nth-child(0n+2),
+table tbody tr:nth-of-type(4) td:nth-child(0n+3),
+table tbody tr:nth-of-type(5) td:nth-child(0n+2),
+table tbody tr:nth-of-type(5) td:nth-child(0n+3),
+table tbody tr:nth-of-type(6) td:nth-child(0n+2),
+table tbody tr:nth-of-type(7) td:nth-child(0n+2) {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
