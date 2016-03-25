@@ -1,4 +1,4 @@
-# Color Scheme 
+# Color Scheme Base2Tone-Desert
 
 |   | A       | B       | C       | D       |
 |---|---------|---------|---------|---------|

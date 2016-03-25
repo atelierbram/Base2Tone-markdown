@@ -1,4 +1,4 @@
-# Color Scheme 
+# Color Scheme Base2Tone-Forest
 
 |   | A       | B       | C       | D       |
 |---|---------|---------|---------|---------|

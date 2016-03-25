@@ -1,4 +1,4 @@
-# Color Scheme 
+# Color Scheme Base2Tone-Sea
 
 |   | A       | B       | C       | D       |
 |---|---------|---------|---------|---------|

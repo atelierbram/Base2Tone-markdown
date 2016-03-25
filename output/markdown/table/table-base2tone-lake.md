@@ -1,4 +1,4 @@
-# Color Scheme 
+# Color Scheme Base2Tone-Lake
 
 |   | A       | B       | C       | D       |
 |---|---------|---------|---------|---------|
