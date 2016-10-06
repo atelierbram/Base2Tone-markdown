@@ -7,7 +7,7 @@
 | 2 | #565254 | #936c7a | #9d9b95 | #b88914 |
 | 3 | #635f60 | #9c818b | #aeaca7 | #c39622 |
 | 4 | #706b6d | #d27998 | #c1beb9 | #cca133 |
-| 5 | #8a8586 | #e28dab | #d6d3cc | #d9c38c |
-| 6 | #9f999b | #f0a8c1 | #eae7e1 | #e6d099 |
-| 7 | #b3adaf | #ffebf2 | #fbfaf9 | #fce19c |
+| 5 | #8a8586 | #e28dab | #d6d3cc | #ddaf3c |
+| 6 | #9f999b | #f0a8c1 | #eae7e1 | #ebbc47 |
+| 7 | #b3adaf | #ffebf2 | #fbfaf9 | #ffcc4d |
 
